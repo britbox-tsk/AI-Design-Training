@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* Design tokens are added in the next setup step (npm run tokens generates
+   src/styles/tokens.css). Once that exists, import it here:
+   @import "./tokens.css"; */
