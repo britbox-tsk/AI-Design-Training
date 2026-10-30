@@ -10,7 +10,7 @@ By the end you'll have everything installed and running, and you'll have had you
 
 If something goes wrong, that's normal, and it's the most common thing in this module. See `getting-unstuck.md`, or ask Claude to help (Claude Code can help diagnose its own install problems once it's running).
 
-> **Placeholders to fill in before sharing this guide:** repo URL, required Node version, and your preferred install method for each OS. They're marked TODO below.
+> **Placeholders to fill in before sharing this guide:** repo URL and your preferred install method for each OS. They're marked TODO below.
 
 ---
 
@@ -39,7 +39,7 @@ That's all the terminal knowledge you need for now.
 
 Node runs the tools that build and preview the prototype.
 
-1. Go to the Node.js website and download the **LTS** version. TODO: specify the exact version the starter repo needs.
+1. Go to the Node.js website and download the **Node 22 LTS** version. (The project needs Node 20.19 or newer; 22 LTS is the recommended choice and matches the `.nvmrc` file in the repo.)
 2. Run the installer with the default options.
 3. Close and reopen your terminal, then check it worked:
 

@@ -8,16 +8,16 @@ The person working with you is a designer, not necessarily a developer. When you
 
 - React + TypeScript, built with Vite
 - Tailwind CSS v4 (tokens defined via `@theme` in generated CSS)
-- Storybook for component documentation
+- Storybook for component documentation (not in the starter yet — added in Module 7)
 - Style Dictionary for turning Figma tokens into CSS
 
 ## Commands
 
 - `npm install`: install dependencies
 - `npm run dev`: start the prototype at http://localhost:5173
-- `npm run tokens`: regenerate `src/styles/tokens.css` from `tokens/*.json`
-- `npm run storybook`: start Storybook at http://localhost:6006
+- `npm run tokens`: regenerate `src/styles/tokens.css` from `tokens/tokens.json`
 - `npm run build`: production build (use to check for errors)
+- `npm run storybook`: start Storybook at http://localhost:6006 (available once Module 7 adds Storybook — not in the starter)
 
 ## Project structure
 

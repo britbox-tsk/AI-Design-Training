@@ -19,7 +19,7 @@ Pick one. They're ordered from least to most setup.
 With the Figma MCP connected, ask Claude Code to read the variables from the playground file and write them to `tokens/tokens.json` in the format below. No plugin needed. The trade-off is that output can vary run to run, so review the diff and check names against Figma.
 
 **Option B: Export with a plugin.**
-Tokens Studio, or one of the "export variables as JSON" plugins in the Figma Community, can export variables as JSON. Prefer one that outputs the W3C Design Tokens (DTCG) format, since Style Dictionary v4 reads it natively. Drop the file into `tokens/`.
+Tokens Studio, or one of the "export variables as JSON" plugins in the Figma Community, can export variables as JSON. Prefer one that outputs the W3C Design Tokens (DTCG) format, since Style Dictionary v5 reads it natively. Drop the file into `tokens/`.
 
 **Option C: Figma's Variables REST API.**
 Fully scriptable and good for automation, but access to the variables endpoints has historically required an Enterprise plan. Check whether that applies to you before investing here.
