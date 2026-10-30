@@ -1,0 +1,46 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+@theme {
+  --color-brand-primary: #2f5bea;
+  --color-brand-primary-hover: #244ac4;
+  --color-brand-primary-subtle: #eaf0fe;
+  --color-text-default: #14171f;
+  --color-text-muted: #5b6270;
+  --color-text-inverse: #ffffff;
+  --color-text-link: #2f5bea;
+  --color-surface-default: #ffffff;
+  --color-surface-subtle: #f5f6f8;
+  --color-surface-raised: #ffffff;
+  --color-border-default: #e2e5ea;
+  --color-border-strong: #c3c8d2;
+  --color-border-focus: #2f5bea;
+  --color-feedback-success: #1f8a4c;
+  --color-feedback-success-subtle: #e6f4ec;
+  --color-feedback-warning: #b4690e;
+  --color-feedback-warning-subtle: #fbf0e1;
+  --color-feedback-danger: #c62828;
+  --color-feedback-danger-subtle: #fbeaea;
+  --color-feedback-info: #2f5bea;
+  --color-feedback-info-subtle: #eaf0fe;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --spacing-12: 48px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  --font-sans: Inter, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+}

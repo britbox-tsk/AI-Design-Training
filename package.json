@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "tokens": "style-dictionary build --config sd.config.mjs",
     "lint": "oxlint",
     "preview": "vite preview"
   },
@@ -24,6 +25,7 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
     "oxlint": "^1.89.0",
+    "style-dictionary": "^5.7.1",
     "typescript": "~7.0.2",
     "vite": "^8.3.5"
   }
