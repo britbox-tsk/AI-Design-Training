@@ -86,4 +86,4 @@ Found something confusing, outdated, or broken? Improvements to the modules and 
 
 ## License
 
-TODO: choose a license for the course materials, or state that all rights are reserved. A public repo with no license means others can view it but have no clear permission to reuse it.
+Released under the [MIT License](LICENSE).

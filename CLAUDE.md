@@ -35,7 +35,7 @@ These matter most. Follow them even if a shortcut would be faster.
 2. **If a needed token doesn't exist, stop and ask.** Suggest the closest existing token, or propose a new token name, but do not invent a raw value.
 3. **Reuse before creating.** Check `src/components/` for an existing component before building a new one. Compose existing components rather than duplicating styles.
 4. **Match Figma, not your assumptions.** When a Figma link is provided, read it with the Figma MCP tools (frames, variables, component properties) rather than guessing from a description. If the Figma design and our tokens disagree, point out the discrepancy rather than silently picking one.
-5. **Token naming:** `category-role-variant`, lowercase, hyphenated (e.g. `color-text-muted`, `spacing-4`). TODO: replace with our actual convention.
+5. **Token naming:** `category-role-variant`, lowercase, hyphenated (e.g. `color-text-muted`, `spacing-4`).
 
 ## Component conventions
 
