@@ -17,14 +17,14 @@ In Module 2, Claude built a screen from your *words*. Now Claude reads the *Figm
 Figma's connection to Claude has requirements that depend on your plan and seat type, and they change over time. Before you start:
 
 - Confirm you can open the [playground Figma file](https://www.figma.com/design/cRiEaXOIvJU9Jcm2d51gdf/Playground-spec).
-- Confirm what seat or plan your team needs for the Figma MCP integration. TODO: verify against Figma's current documentation and note the answer here.
+- Your full Designer seat on our Enterprise license already includes everything you need for the Figma MCP integration, so there's nothing extra to request.
 - If you duplicated the playground file for yourself, use links from *your* copy.
 
 If you're blocked at this step, ask your lead rather than troubleshooting alone.
 
 ## Step 1: Connect Figma to Claude Code (15-30 min)
 
-Figma provides an official MCP server, which lets Claude Code read your Figma files. There are a couple of ways to connect (a remote server you sign in to, or a local one that runs through the Figma desktop app), and the details change as Figma updates it. Use Figma's current setup instructions as the source of truth. TODO: add your team's tested method and link here.
+Figma provides an official MCP server, which lets Claude Code read your Figma files. There are a couple of ways to connect (a remote server you sign in to, or a local one that runs through the Figma desktop app). **For our team, use the local desktop-app method** — it's the one we've tested. If you don't already have the Figma desktop app, install it first (it's a free download from figma.com); your browser login won't be enough for this method. The exact setup steps change as Figma updates the integration, so use Figma's current setup instructions as the source of truth for the specifics.
 
 In general, the steps look like this:
 
