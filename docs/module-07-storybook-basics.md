@@ -38,7 +38,7 @@ Ask for a plan first:
 
 > I want to add Storybook to this project. Before changing anything, tell me what you'll install and which files you'll create or change. Make sure our design tokens (src/styles/tokens.css) load in Storybook so components look right. Wait for my approval.
 
-Review the plan. Storybook installs a number of packages, which is expected, but it's worth knowing it's coming. When you approve, Claude will set it up.
+Review the plan. Storybook installs a lot: besides Storybook itself, recent versions also pull in a test runner (Vitest), a browser-automation tool (Playwright), and a set of browser binaries, so the install is sizeable and can take a few minutes. It also **modifies your `vite.config.ts`** (adding a test configuration) and adds a small `vitest.shims.d.ts` file. None of that is cause for alarm, but it's good to know before you approve, especially given the shared usage budget. When you approve, Claude will set it up.
 
 Then start it:
 
@@ -48,7 +48,7 @@ npm run storybook
 
 It should open at `http://localhost:6006`. If you see a sidebar and some example stories, it's working.
 
-**Common first problem:** components look unstyled in Storybook even though they look fine in the prototype. This usually means Storybook isn't loading the project's CSS (including the tokens). Tell Claude: *"Our components look unstyled in Storybook. Make sure it loads the same global styles and tokens as the app."*
+**Common first problem:** components look unstyled in Storybook even though they look fine in the prototype. This happens because Storybook's generated `.storybook/preview.tsx` doesn't import your global CSS, so Tailwind and your tokens never load. The fix is one line at the top of `.storybook/preview.tsx`: `import '../src/styles/index.css'`. Tell Claude: *"Our components look unstyled in Storybook. Make sure it loads the same global styles and tokens as the app."*
 
 Commit when it works.
 
@@ -109,7 +109,7 @@ You'll go faster this time. Notice what you're reusing from the Button process, 
 
 ## Step 6: The accessibility addon (30-45 min)
 
-Storybook has an accessibility addon that checks components for common problems. If it isn't installed, ask Claude to add it.
+Storybook has an accessibility addon (`@storybook/addon-a11y`) that checks components for common problems. Recent versions of Storybook include it by default, so it's probably already there; if for some reason it isn't, ask Claude to add it.
 
 1. Open any story and find the **Accessibility** panel.
 2. Look at the results: *violations* (definite problems), *passes*, and *incomplete* (needs manual review).
