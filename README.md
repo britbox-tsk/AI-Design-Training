@@ -82,7 +82,7 @@ This is a learning sandbox built around a fictional product. It uses placeholder
 
 ## Contributing
 
-Found something confusing, outdated, or broken? Improvements to the modules and docs are welcome. TODO: describe how you'd like suggestions to reach you (issues, pull requests, or the team channel).
+Found something confusing, outdated, or broken? Improvements to the modules and docs are welcome. Just message me or the team directly — no formal process, and a quick note about what tripped you up is genuinely useful.
 
 ## License
 

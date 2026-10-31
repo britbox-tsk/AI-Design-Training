@@ -65,7 +65,7 @@ Keep names aligned with Tailwind v4's theme namespaces so tokens turn into utili
 }
 ```
 
-The values above are placeholders (TODO: replace with your real ones). Reference other tokens with `"{color.brand.primary}"` syntax to preserve semantic layers (e.g. a `button.background` token pointing at `color.brand.primary`).
+The values above are illustrative; the real values live in `tokens/tokens.json`, generated from the playground Figma file's variables. Reference other tokens with `"{color.brand.primary}"` syntax to preserve semantic layers (e.g. a `button.background` token pointing at `color.brand.primary`).
 
 ## Step 3: Style Dictionary config
 

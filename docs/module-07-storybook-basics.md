@@ -10,7 +10,7 @@ So far your components have lived inside screens. Storybook shows them on their 
 
 By the end you'll have Storybook running, a few components with stories, and a feel for reviewing coded components the way you'd review designs.
 
-> **If your starter repo already includes Storybook** (TODO: confirm), skip Step 2 and go straight to Step 3.
+> **Note:** the starter repo does not include Storybook — adding it is part of this module (Step 2).
 
 ---
 

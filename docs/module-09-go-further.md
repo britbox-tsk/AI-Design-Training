@@ -167,8 +167,7 @@ You don't have to finish everything, or anything. When you feel like you've lear
 
 1. **Update your learning log's self-ratings** (the table at the top) and compare with where you started.
 2. **Write a few lines:** what's the most useful thing you learned, what's still unclear, and what you'd like to do next.
-3. **Take the short survey** (TODO: add link), if your lead has set one up. It's anonymous.
-4. **Optional:** tell your lead what was most and least useful, and what you'd like to see added.
+3. **Share your feedback directly:** tell your lead what was most and least useful, and what you'd like to see added. Direct feedback is exactly how this course gets better.
 
 ## What to notice
 

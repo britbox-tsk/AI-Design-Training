@@ -103,7 +103,7 @@ Open a terminal in your project folder. Make a small change first (edit some tex
 | Stage and save | `git add -A` then `git commit -m "Describe the change"` | Creates a save point |
 | See the history | `git log --oneline` | Lists save points, newest first |
 | Start an experiment | `git switch -c experiment/try-darker-header` | New branch, safe to play in |
-| Go back to the main line | `git switch main` | Returns to your clean version (TODO: confirm the default branch name) |
+| Go back to the main line | `git switch main` | Returns to your clean version (our default branch is `main`) |
 | Throw away changes to a file | `git restore path/to/file` | Permanent for those uncommitted changes |
 
 ### The fearless-experiment loop
