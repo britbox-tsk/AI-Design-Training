@@ -10,16 +10,13 @@ By the end you'll have everything installed and running, and you'll have had you
 
 If something goes wrong, that's normal, and it's the most common thing in this module. See `getting-unstuck.md`, or ask Claude to help (Claude Code can help diagnose its own install problems once it's running).
 
-> **Placeholders to fill in before sharing this guide:** repo URL and your preferred install method for each OS. They're marked TODO below.
-
 ---
 
 ## Step 1: Meet the terminal (10 min)
 
 The terminal is a text window where you type commands instead of clicking. You'll use it a little, and Claude Code will do most of the typing for you.
 
-- **Mac:** open the app called *Terminal* (press Cmd+Space and type "Terminal").
-- **Windows:** open *PowerShell* from the Start menu. (TODO: confirm whether your team uses WSL or plain Windows.)
+- Open the app called *Terminal* (press Cmd+Space, type "Terminal", and press Enter).
 
 Try these three commands. Press Enter after each:
 
@@ -30,7 +27,7 @@ cd Documents
 ```
 
 - `pwd` shows which folder you're in.
-- `ls` lists what's in it (on Windows PowerShell, `dir` also works).
+- `ls` lists what's in it.
 - `cd Documents` moves into a folder. `cd ..` moves back up.
 
 That's all the terminal knowledge you need for now.
@@ -67,7 +64,7 @@ git config --global user.email "you@company.com"
 
 Claude Code can be used in the terminal or in the desktop app. If the terminal feels intimidating, the desktop app is a friendlier start, and you can switch any time. Both do the same work.
 
-Installation instructions change, so use Anthropic's current Claude Code documentation for your operating system rather than anything copied here. TODO: add your team's preferred method and link.
+Installation instructions change, so follow Anthropic's current Claude Code documentation for macOS rather than anything copied here.
 
 Once it's installed:
 
@@ -88,10 +85,10 @@ mkdir projects
 cd projects
 ```
 
-2. Copy the starter repo. The repo is public, so you don't need a GitHub account or to sign in. (TODO: replace with your repo URL.)
+2. Copy the starter repo. The repo is public, so you don't need a GitHub account or to sign in.
 
 ```
-git clone https://github.com/<OWNER>/<REPO>.git design-sandbox
+git clone https://github.com/britbox-tsk/AI-Design-Training.git design-sandbox
 cd design-sandbox
 ```
 
