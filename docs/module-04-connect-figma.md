@@ -16,7 +16,7 @@ In Module 2, Claude built a screen from your *words*. Now Claude reads the *Figm
 
 Figma's connection to Claude has requirements that depend on your plan and seat type, and they change over time. Before you start:
 
-- Confirm you can open the playground Figma file (TODO: link).
+- Confirm you can open the [playground Figma file](https://www.figma.com/design/cRiEaXOIvJU9Jcm2d51gdf/Playground-spec).
 - Confirm what seat or plan your team needs for the Figma MCP integration. TODO: verify against Figma's current documentation and note the answer here.
 - If you duplicated the playground file for yourself, use links from *your* copy.
 

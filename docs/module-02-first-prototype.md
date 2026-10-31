@@ -32,7 +32,7 @@ The goal is to get comfortable with the rhythm, not to produce a perfect screen.
 
 ## Step 2: Look at your target (10 min)
 
-Open the playground Figma file and find **Screen 1: Sign in** (TODO: add link). Spend a few minutes studying it:
+Open the [playground Figma file](https://www.figma.com/design/cRiEaXOIvJU9Jcm2d51gdf/Playground-spec) and find the **Sign in · Desktop** frame on the Screens page. Spend a few minutes studying it:
 
 - What's on the screen, top to bottom?
 - What are the components (inputs, buttons, checkbox, link)?

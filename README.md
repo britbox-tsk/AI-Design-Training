@@ -10,7 +10,7 @@ Designers who are comfortable in Figma and curious about code, with no coding ex
 
 - A laptop where you can install software
 - Access to Claude Code (a Claude account that includes it)
-- Access to the playground Figma file (TODO: add link once the file is ready; see "The Figma file" below)
+- Access to the [playground Figma file](https://www.figma.com/design/cRiEaXOIvJU9Jcm2d51gdf/Playground-spec) (see "The Figma file" below)
 - About 1-2 hours a week, however you'd like to spend them
 
 ## How it works
@@ -66,7 +66,7 @@ src/
 
 The exercises use a small playground design system: a fictional product, about 40 variables, 10 components, and 4 sample screens. See the [spec](docs/playground-figma-spec.md) for details.
 
-TODO: add link to the file. Make a copy in your own Figma account if you'd like to edit it.
+The playground file is here: https://www.figma.com/design/cRiEaXOIvJU9Jcm2d51gdf/Playground-spec — make a copy in your own Figma account if you'd like to edit it.
 
 ## Tips for a good experience
 

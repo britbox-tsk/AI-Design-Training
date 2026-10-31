@@ -72,8 +72,8 @@ These matter most. Follow them even if a shortcut would be faster.
 
 ## Figma
 
-- Playground file: TODO add Figma file link
-- Key pages: TODO e.g. "Components", "Sample screens"
+- Playground file: https://www.figma.com/design/cRiEaXOIvJU9Jcm2d51gdf/Playground-spec
+- Key pages: "Cover / README", "Foundations", "Components", "Screens", "Exercises"
 - The Figma MCP server should be connected. If a Figma link doesn't load, tell me rather than falling back to guessing.
 
 ## Cost awareness
