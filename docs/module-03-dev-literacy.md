@@ -14,7 +14,7 @@ The method is simple: use the code Claude already wrote as your textbook, and as
 
 ## Part A: Read code like a designer (45 min)
 
-You'll look at your sign-in prototype's Button and one screen file. Open the project folder in a code editor (TODO: your team's suggested editor, e.g. VS Code), or just ask Claude to show you the code in the chat.
+You'll look at your sign-in prototype's Button and one screen file. Open the project folder in a code editor (we suggest VS Code, a free download for macOS), or just ask Claude to show you the code in the chat.
 
 ### A1. A guided tour
 

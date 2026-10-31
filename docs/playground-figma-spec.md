@@ -10,7 +10,7 @@ A small, deliberately simple design system plus a few sample screens. It exists 
 - **Neutral and fictional.** Not tied to a real product or a real brand.
 - **Modest frame sizes.** Large frames cost more to read through the Figma MCP. Keep one screen per frame and avoid enormous nested layouts.
 
-TODO: pick a fictional product to theme the sample screens (suggestion: a simple project-tracking app, since it naturally needs forms, lists, filters, and settings).
+The sample screens are themed as a simple project-tracking app, which naturally needs forms, lists, filters, and settings.
 
 ## File structure
 
